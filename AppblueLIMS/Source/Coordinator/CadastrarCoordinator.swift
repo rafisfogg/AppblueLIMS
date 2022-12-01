@@ -1,22 +1,22 @@
 //
-//  HomeCoordinator.swift
+//  CadastradosCoordinator.swift
 //  AppblueLIMS
 //
-//  Created by IFB BIOTIC 11 on 29/11/22.
+//  Created by IFB BIOTIC 11 on 01/12/22.
 //
 
 import Foundation
 import UIKit
 
-class HomeCoordinator: Coordinator {
+class CadastrarCoordinator: Coordinator {
     
     private let navigationController: UINavigationController
     
-    lazy var homeViewController: HomeViewController = {
-        let viewController = HomeViewController()
+    lazy var cadastrarViewController: CadastrarViewController = {
+        let viewController = CadastrarViewController()
         
-        viewController.tabBarItem.title = "Home"
-        viewController.tabBarItem.image = UIImage(systemName: "homekit")
+        viewController.tabBarItem.title = "Cadastrar"
+        viewController.tabBarItem.image = UIImage(systemName: "highlighter")
         
         return viewController
     }()

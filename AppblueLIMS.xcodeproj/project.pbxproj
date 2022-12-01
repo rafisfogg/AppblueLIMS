@@ -34,6 +34,14 @@
 		39EEFE89292CFED500FDAE47 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EEFE88292CFED500FDAE47 /* LoginCoordinator.swift */; };
 		39EEFE8C292D008100FDAE47 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EEFE8B292D008100FDAE47 /* LoginView.swift */; };
 		39EEFE8E292D00A100FDAE47 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EEFE8D292D00A100FDAE47 /* LoginViewController.swift */; };
+		39F54CC92938D30100A6D290 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F54CC82938D30000A6D290 /* TabBarController.swift */; };
+		39F54CCB2938D37C00A6D290 /* SobreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F54CCA2938D37C00A6D290 /* SobreView.swift */; };
+		39F54CCD2938D39B00A6D290 /* CadastrarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F54CCC2938D39B00A6D290 /* CadastrarView.swift */; };
+		39F54CCF2938D3C000A6D290 /* CadastrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F54CCE2938D3C000A6D290 /* CadastrarViewController.swift */; };
+		39F54CD12938D3D100A6D290 /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F54CD02938D3D100A6D290 /* SobreViewController.swift */; };
+		39F54CD32938D3FC00A6D290 /* SobreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F54CD22938D3FC00A6D290 /* SobreCoordinator.swift */; };
+		39F54CD52938D41D00A6D290 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F54CD42938D41D00A6D290 /* TabBarCoordinator.swift */; };
+		39F54CD72938D43300A6D290 /* CadastrarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F54CD62938D43300A6D290 /* CadastrarCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +93,14 @@
 		39EEFE88292CFED500FDAE47 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		39EEFE8B292D008100FDAE47 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		39EEFE8D292D00A100FDAE47 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		39F54CC82938D30000A6D290 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		39F54CCA2938D37C00A6D290 /* SobreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreView.swift; sourceTree = "<group>"; };
+		39F54CCC2938D39B00A6D290 /* CadastrarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastrarView.swift; sourceTree = "<group>"; };
+		39F54CCE2938D3C000A6D290 /* CadastrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastrarViewController.swift; sourceTree = "<group>"; };
+		39F54CD02938D3D100A6D290 /* SobreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreViewController.swift; sourceTree = "<group>"; };
+		39F54CD22938D3FC00A6D290 /* SobreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreCoordinator.swift; sourceTree = "<group>"; };
+		39F54CD42938D41D00A6D290 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		39F54CD62938D43300A6D290 /* CadastrarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastrarCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,8 +181,8 @@
 		396B6E7629362E700093FA05 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				396B6E7929362EB40093FA05 /* HomeViewController.swift */,
 				396B6E7B29362EE10093FA05 /* HomeView.swift */,
+				396B6E7929362EB40093FA05 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -239,6 +255,9 @@
 				39EEFE88292CFED500FDAE47 /* LoginCoordinator.swift */,
 				394E6170292D16840049CC21 /* RegisterCoordinator.swift */,
 				396B6E7D29362F030093FA05 /* HomeCoordinator.swift */,
+				39F54CD22938D3FC00A6D290 /* SobreCoordinator.swift */,
+				39F54CD42938D41D00A6D290 /* TabBarCoordinator.swift */,
+				39F54CD62938D43300A6D290 /* CadastrarCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -246,11 +265,40 @@
 		39EEFE8A292D006600FDAE47 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				39F54CC72938D27800A6D290 /* TabBar */,
+				39F54CC62938D24E00A6D290 /* Sobre */,
+				39F54CC42938D20E00A6D290 /* Cadastrar */,
 				396B6E7629362E700093FA05 /* Home */,
 				394E616A292D16250049CC21 /* Login */,
 				394E6169292D161D0049CC21 /* Register */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		39F54CC42938D20E00A6D290 /* Cadastrar */ = {
+			isa = PBXGroup;
+			children = (
+				39F54CCC2938D39B00A6D290 /* CadastrarView.swift */,
+				39F54CCE2938D3C000A6D290 /* CadastrarViewController.swift */,
+			);
+			path = Cadastrar;
+			sourceTree = "<group>";
+		};
+		39F54CC62938D24E00A6D290 /* Sobre */ = {
+			isa = PBXGroup;
+			children = (
+				39F54CCA2938D37C00A6D290 /* SobreView.swift */,
+				39F54CD02938D3D100A6D290 /* SobreViewController.swift */,
+			);
+			path = Sobre;
+			sourceTree = "<group>";
+		};
+		39F54CC72938D27800A6D290 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				39F54CC82938D30000A6D290 /* TabBarController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,24 +434,32 @@
 			files = (
 				39EEFE89292CFED500FDAE47 /* LoginCoordinator.swift in Sources */,
 				39EEFE8C292D008100FDAE47 /* LoginView.swift in Sources */,
+				39F54CCB2938D37C00A6D290 /* SobreView.swift in Sources */,
+				39F54CC92938D30100A6D290 /* TabBarController.swift in Sources */,
+				39F54CD72938D43300A6D290 /* CadastrarCoordinator.swift in Sources */,
 				396B6E80293636690093FA05 /* ViewControllerDefault.swift in Sources */,
+				39F54CD32938D3FC00A6D290 /* SobreCoordinator.swift in Sources */,
 				39EEFE56292CF7B700FDAE47 /* ViewController.swift in Sources */,
 				394E616C292D16370049CC21 /* RegisterView.swift in Sources */,
 				39EEFE52292CF7B700FDAE47 /* AppDelegate.swift in Sources */,
 				396B6E7A29362EB40093FA05 /* HomeViewController.swift in Sources */,
+				39F54CD52938D41D00A6D290 /* TabBarCoordinator.swift in Sources */,
 				394E6162292D15EB0049CC21 /* LabelDefault.swift in Sources */,
 				394E616F292D16600049CC21 /* RegisterViewController.swift in Sources */,
 				394E6160292D15CE0049CC21 /* UIColor.swift in Sources */,
+				39F54CCD2938D39B00A6D290 /* CadastrarView.swift in Sources */,
 				396B6E7C29362EE10093FA05 /* HomeView.swift in Sources */,
 				396B6E8229363C0C0093FA05 /* ViewDefault.swift in Sources */,
 				39EEFE8E292D00A100FDAE47 /* LoginViewController.swift in Sources */,
 				394E6166292D16040049CC21 /* ButtonDefault.swift in Sources */,
 				394E6164292D15FA0049CC21 /* TextFieldDefault.swift in Sources */,
+				39F54CD12938D3D100A6D290 /* SobreViewController.swift in Sources */,
 				39EEFE87292CFD9000FDAE47 /* Coordinator.swift in Sources */,
 				394E6168292D16130049CC21 /* ImageDefault.swift in Sources */,
 				394E6171292D16840049CC21 /* RegisterCoordinator.swift in Sources */,
 				39EEFE5C292CF7B700FDAE47 /* AppblueLIMS.xcdatamodeld in Sources */,
 				39EEFE54292CF7B700FDAE47 /* SceneDelegate.swift in Sources */,
+				39F54CCF2938D3C000A6D290 /* CadastrarViewController.swift in Sources */,
 				396B6E7E29362F030093FA05 /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

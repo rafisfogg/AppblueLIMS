@@ -1,23 +1,22 @@
 //
-//  HomeCoordinator.swift
+//  SobreCoordinator.swift
 //  AppblueLIMS
 //
-//  Created by IFB BIOTIC 11 on 29/11/22.
+//  Created by IFB BIOTIC 11 on 01/12/22.
 //
 
 import Foundation
 import UIKit
 
-class HomeCoordinator: Coordinator {
+class SobreCoordinator: Coordinator {
     
     private let navigationController: UINavigationController
     
-    lazy var homeViewController: HomeViewController = {
-        let viewController = HomeViewController()
+    lazy var sobreViewController: SobreViewController = {
+        let viewController = SobreViewController()
         
-        viewController.tabBarItem.title = "Home"
-        viewController.tabBarItem.image = UIImage(systemName: "homekit")
-        
+        viewController.tabBarItem.title = "Sobre"
+        viewController.tabBarItem.image = UIImage(systemName: "info.square")
         return viewController
     }()
     

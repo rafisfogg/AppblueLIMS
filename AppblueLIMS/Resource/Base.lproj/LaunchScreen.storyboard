@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,6 +26,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LogoLaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="hah-0N-5OD">
                                 <rect key="frame" x="65" y="311" width="262" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <imageReference key="highlightedImage" image="highlighter" catalog="system" symbolScale="default"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -38,5 +40,6 @@
     </scenes>
     <resources>
         <image name="LogoLaunchScreen" width="263" height="83"/>
+        <image name="highlighter" catalog="system" width="128" height="120"/>
     </resources>
 </document>

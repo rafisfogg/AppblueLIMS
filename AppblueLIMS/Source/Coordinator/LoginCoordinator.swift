@@ -35,7 +35,7 @@ class LoginCoordinator: Coordinator  {
     }
     
     func gotoLogin () {
-        let coordinator = HomeCoordinator(navigationController: navigationController)
+        let coordinator = TabBarCoordinator(navigationController: navigationController)
         coordinator.start()
     }
 }

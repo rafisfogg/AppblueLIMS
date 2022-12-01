@@ -1,14 +1,14 @@
 //
-//  HomeView.swift
+//  SobreView.swift
 //  AppblueLIMS
 //
-//  Created by IFB BIOTIC 11 on 29/11/22.
+//  Created by IFB BIOTIC 11 on 01/12/22.
 //
 
 import Foundation
 import UIKit
 
-class HomeView: ViewDefault {
+class SobreView: ViewDefault {
     
     //MARK: - Proporties
 
@@ -20,3 +20,6 @@ class HomeView: ViewDefault {
     }
     
 }
+
+
+
